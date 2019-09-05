@@ -2,7 +2,7 @@
 #include "ReceivedArgument.h"
 
 
-// <summary> «Øºc¨ç¼Æ </summary>
+// å»ºæ§‹å­
 ReceivedArgument::ReceivedArgument(ISocketMessage ^paramSocket)
 {
 	sckMessage = paramSocket;
