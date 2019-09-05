@@ -10,7 +10,7 @@ private:
 	ISocketMessage ^ sckMessage;
 
 public:
-	// «Øºc¨ç¼Æ
+	// å»ºæ§‹å­
 	ReceivedArgument(ISocketMessage ^paramSocket);
 
 	property ISocketMessage^ SocketMessage
