@@ -15,9 +15,9 @@ private:
 	String ^connectedTime;
 
 public:
-	// «Øºc¨ç¼Æ
+	// å»ºæ§‹å­
 	ConnectChangedArgument(String ^, int, String ^, int);
-	// «Øºc¨ç¼Æ
+	// å»ºæ§‹å­
 	ConnectChangedArgument(ISocketConnection ^paramSocket);
 
 	property String ^ LocalIP
