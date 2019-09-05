@@ -2,7 +2,7 @@
 #include "ConnectChangedArgument.h"
 
 
-// <summary> «Øºc¨ç¼Æ </summary>
+// å»ºæ§‹å­
 ConnectChangedArgument::ConnectChangedArgument(String ^paramLocalIP, int paramLocalPort, String ^paramRemoteIP, int paramRemotePort)
 {
 	localIP = paramLocalIP;
@@ -13,8 +13,7 @@ ConnectChangedArgument::ConnectChangedArgument(String ^paramLocalIP, int paramLo
 }
 
 
-// <summary> «Øºc¨ç¼Æ </summary>
-// <param name="paramSocket">Socketª«¥ó</param>
+// å»ºæ§‹å­
 ConnectChangedArgument::ConnectChangedArgument(ISocketConnection ^paramSocket)
 {
 	localIP = paramSocket->ListenIP;
