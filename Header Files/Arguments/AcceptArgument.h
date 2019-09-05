@@ -15,6 +15,6 @@ public:
 	bool IsAccept = true;
 
 
-	// «Øºc¨ç¼Æ 
+	// å»ºæ§‹å­
 	AcceptArgument(ISocket ^paramSocket);
 };
