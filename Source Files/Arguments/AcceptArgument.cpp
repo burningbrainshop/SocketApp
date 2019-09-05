@@ -3,8 +3,7 @@
 
 
 
-// <summary> «Øºc¨ç¼Æ </summary>
-// <param name="paramSocket">Socketª«¥ó</param>
+// å»ºæ§‹å­
 AcceptArgument::AcceptArgument(ISocket ^paramSocket)
 {
 	LocalIP = paramSocket->LocalIP;
